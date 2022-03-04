@@ -1,5 +1,36 @@
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: rgb(206, 200, 200);
+    background-color: rgb(214, 209, 209);
     font-size: 18px;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(88, 87, 87);
+    padding: 30px 30px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: right;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+    background-color: rgb(88, 87, 87);
+    color: #fff;
+    text-align: center;
 }
